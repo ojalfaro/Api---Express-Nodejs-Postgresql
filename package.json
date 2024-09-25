@@ -1,0 +1,21 @@
+{
+  "name": "p1_rest_posg1",
+  "version": "1.0.0",
+  "main": "SRC/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node SRC/server.js",
+    "dev": "node --env-file SRC/.ENV --watch SRC/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
